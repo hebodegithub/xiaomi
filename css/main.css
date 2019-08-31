@@ -1,0 +1,577 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+del{
+    text-decoration: line-through;
+    color: gray;
+}
+a{
+    color: black;
+}
+.ul p{
+    color: orange;
+}
+div::after{
+    clear: both;
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+#top{
+    width:100%;
+}
+.top1,.top2,#main,#main2{
+    /* padding: auto; */
+    /* position: relative; */
+    margin: 0 auto;
+    width: 68%;
+}
+#top>.box{
+    line-height: 3;
+    font-size: 13px;
+    background-color: black;
+    padding: 0 5px;
+}
+#download>img{
+  position:absolute;
+  left:890px;
+  top:40px;
+  width:90px;
+  height:90px;
+  z-index:1;
+  display: none;
+}
+.top1 a{
+    color: gray;
+    padding: 0 5px;
+}
+.top1 a:hover{
+    color: white;
+}
+.top1>.left{
+    float: left;
+}
+.top1>.right{
+    float: right;
+}
+.top2{
+    /* border: 1px solid red; */
+    width: 68%;
+    margin: 0 auto;
+}
+#top .gw:hover{
+    color: orange;
+    background-color: #FFF;
+}
+.gwc{
+    position: absolute;
+    right: 344px;
+    top: 44px;
+    width: 260px;
+    height: 120px;
+    text-align: center;
+    background-color: #FFF;
+    transition:All 0.4s ease-in-out;
+    display: none;
+}
+.gwc>p{
+    font-size: 12px;
+    margin: 30px 0;
+}
+.top2>ul>li{
+    /* border: 1px solid red; */
+    padding: 20px 0;
+    float: left;
+    width: 70px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 2.5;
+    color: black;
+}
+.top2>ul>#mi{
+    padding: 5.8px 0;
+}
+.rows>ul>li{
+    padding: 40px 25px;
+    float: left;
+    width: 160px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    color: black;
+}
+.ul{
+    position: absolute;
+}
+.ul img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.li>a:hover{
+    color: orange;
+}
+.frame>.rows{
+    position: absolute;
+    left: 330px;
+    width: 80%;
+    margin: 0 auto;
+    /* transform:translate(0,-10px);
+	box-shadow:0px 0px 0px 0px #e5e5e5; */
+}
+.li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.li:hover .frame{
+     transition:All 0.4s ease-in-out;
+    display: block;
+}
+div.frame{
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    top:120px;
+    left: 0;
+    z-index: 24;
+    background-color: #fff;
+    transform:translate(0,-10px);
+	box-shadow:0px 0px 5px 0px black;
+    /* background-color: rgb(50, 218, 221); */
+    display: none;
+}
+#background{
+    position: absolute;
+}
+#background>img{
+    height: 460px;
+    width: 1226px;
+    z-index: -10;
+}
+#background>.btn{
+    position: absolute;
+    top: 420px;
+    left: 1100px;
+}
+#background button{
+    opacity: 0.5;
+    z-index: 10;
+    outline: none;
+    border: none;
+    background-color: rgba(77, 75, 71, 0.5);
+}
+#background>.btn>button{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+#background>.btn>button:hover{
+    background: #FFF;
+}
+#background>button{
+    width: 41px;
+    height: 69px;
+}
+#background>button:hover{
+    background-color: gray;
+}
+#background>.lt{
+    position: absolute;
+    top:195px;
+    left: 221px;
+}
+#background>.gt{
+    position: absolute;
+    top:195px;
+    left: 1185px;
+}
+.top3_left{
+    position: absolute;
+    z-index: 10;
+    color: #FFF;
+    background-color: rgba(77, 75, 71, 0.5);
+    /* float: left; */
+}
+.top3_left>ul{
+    margin: 15px 0;
+    padding: 10px 0;
+}
+.top3_left>ul>li{
+    font-size: 14px;
+    /* margin: 0px 12px; */
+    padding: 6.5px 26px;
+    height: 28px;
+    width: 170px;
+}
+.top3_left>ul>li:hover{
+    background-color: #ff6700;
+}
+.top3_left>ul>li>i{
+    float: right;
+}
+.top3_right{
+    position: absolute;
+    height: 460px;
+    width: 1008px;
+    left:218px;
+    top:0;
+    z-index: 24;
+    /* border: 1px solid red; */
+    background: #FFF;
+    display: none;
+}
+.top3_right>img{
+    width: 100%;
+    height: 100%;
+}
+.pb>.top3_right{
+    width: 502px;
+}
+.dy>.top3_right{
+    width: 752px;
+}
+.top3_left>ul>li:hover .top3_right{
+    display: block;
+}
+.top3_right tr{
+    height: 74px;
+    /* width: 250px; */
+}
+.top3_right td{
+    /* border: 1px solid black; */
+    padding: 20px 40px;
+    width: 250px;
+}
+.top4{
+    /* border: 1px solid red; */
+    position: relative;
+    top: 480px;
+}
+.redmi{
+    width: 316px;
+    height: 170px;
+}
+.top4 img{
+    width: 100%;
+    height: 100%;
+}
+.row2,.row3,.row4{
+    height: 170px;
+    width: 314px;
+}
+.top4>div{
+    margin: 0 18.2px 0 0;
+    float: left;
+}
+.row1{
+    background: #5f5750;
+    border: 1px solid rgb(158, 224, 30);
+    width: 220px;
+    height: 170px;
+}
+.row1>table{
+    margin: 20px 5px;
+    padding: 10px 0;
+}
+.row1 td{
+    font-size: 13px;
+    padding: 15px 5px;
+    color: rgb(212, 212, 198);
+}
+.row1 td:hover{
+    color: #FFF;
+}
+.redmi>img{
+    position: relative;
+    margin-top: 505px;
+    width: 1226px;
+    height: 120px;
+}
+#inter{
+    margin-top: 495px;
+    background: rgb(238, 208, 160);
+    width: 100%;
+    /* border: 1px solid red; */
+}
+#main2>p{
+    height: 150px;
+}
+.all>.left,.homeAppliance>.left{
+    margin: 12px 0;
+    font-size: 20px;
+    float: left;
+}
+.all>.right{
+    margin: 14px 4px;
+    font-size: 16px;
+    float: right;
+}
+.all>.right a:hover{
+    color: orange;
+}
+.xm9,.xm{
+    float: left;
+}
+.xm{
+    text-align: center;
+    width: 640px;
+    height: 614px;
+}
+.xm9>img,.xm td,.homeAppliance img{
+    transition:All 0.4s ease-in-out;
+}
+.xm td{
+    padding: 0 8.5px;
+    width: 240px;
+    background: #FFF;
+}
+.xm9>img:hover,.xm td:hover,.homeAppliance>.left img:hover{
+	transform:translate(0,-5px);
+	-webkit-box-shadow:0px 5px 15px #e5e5e5;
+}
+.xm i,.p i,.video i{
+    font-size: 12px;
+    text-overflow: ellipsis;
+    color: #b0b0b0;
+}
+.xm p{
+    color: orange;
+    font-size: 14px;
+    padding: 6px 0;
+    /* margin: 5px 0; */
+}
+.tv{
+    margin-top: 40px;
+}
+.tv>img{
+    width: 1226px;
+    height: 120px;
+}
+.homeAppliance{
+    /* border: 1px solid red; */
+    margin-top: 12px;
+    position: relative;
+}
+.homeAppliance>.left>p{
+    margin: 9px 0;
+}
+.homeAppliance>.right p{
+    color: orange;
+    margin: 7px 0;
+}
+.homeAppliance>.left img,.homeAppliance .content li{
+    width: 234px;
+    height: 300px;
+    background-color: #FFF;
+    /* border: 1px solid red; */
+}
+.homeAppliance>.right>ul>li{
+    list-style: none;
+    /* margin: 8px 0; */
+    padding: 8px 0;
+    float: right;
+    /* border: 1px solid green; */
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.homeAppliance>.right>ul>li:hover .content{
+    display: block;
+}
+.homeAppliance>.right img{
+    margin: 30px 30px 5px 30px;
+    width: 150px;
+    height: 150px;
+}
+.homeAppliance .content{
+    top: 52px;
+    left: 234px;
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 89%;
+    width: 80%;
+    display: none;
+}
+.homeAppliance .content>ul>li{
+    margin: 3px 5.7px;
+    text-align: center;
+    float: left;
+    transition:All 0.4s ease-in-out;
+}
+.homeAppliance .content>ul>li:hover{
+    transform:translate(0,-10px);
+	-webkit-box-shadow:5px 0px 15px #e5e5e5;
+}
+.homeAppliance .content>ul>li:hover .p{
+    display: block;
+}
+.homeAppliance .content span{
+    padding: 0 10px;
+    font-size: 15px;
+}
+.homeAppliance .content .p{
+    position: relative;
+    /* border: 1px solid green; */
+    top: -25px;
+    height: 90px;
+    width: 234px;
+    background-color: orangered;
+    display: none;
+}
+.homeAppliance .content .p>p{
+    margin: 5px 12px;
+    padding: 7px 0;
+    font-size: 14px;
+    color: #FFF;
+    text-align: left;
+}
+#tail>.content>div{
+    border: 1px solid red;
+    width: 24.7%;
+    height: 420px;
+    float: left;
+    text-align: center;
+}
+/* #tail>.content>.book>p{
+    border: 1px solid red;
+    margin-top: 30    px;
+    margin-bottom: 10px;
+     height: 20%;
+}
+#tail>.content>.book>span{
+    border: 1px solid red;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+#tail>.content>.book>i{
+    border: 1px solid red;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    font-size: 14px;
+} */
+.fix{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 471px;
+    width: 84px;
+    text-align: center;
+}
+.fix p{
+    font-size: 14px;
+}
+.fix li{
+    /* border: 1px solid red; */
+    width: 80px;
+    height: 92px;
+}
+.fix li:hover img{
+    color: orange;
+    filter: none;
+}
+.fix img{
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+}
+.fix .download>img{
+    height: 100px;
+    width: 100px;
+    filter: none;
+}
+.fix .download{
+    position: fixed;
+    bottom: 373px;
+    right: 80px;
+    display: none;
+}
+.video li{
+    margin: 0 10px 0 0;
+    border: 1px solid red;
+    width: 24%;
+    height: 285px;
+    float: left;
+    text-align: center;
+    background-color: #FFF;
+    transition:All 0.3s ease-in-out;
+}
+.video li:hover{
+    transform:translate(0,-3px);
+	-webkit-box-shadow:0px 5px 15px #e5e5e5;
+}
+.video li>p{
+    margin: 20px 0 8px 0;
+}
+.video li a:hover{
+    color: orange;
+}
+.video img{
+    width: 100%;
+    height: 180px;
+}
+#video{
+    position: fixed;
+    z-index: 20;
+    top: 25%;
+    left: 25%;
+    display: none;
+}
+#video>.gt>button{
+    position: fixed;
+    opacity: 0.1;
+    border-radius: 80%;
+    top: 53%;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    z-index: 30;
+}
+#video .close{
+    /* position: relative; */
+    background-color: #FFF;
+    margin: 0 ;
+}
+video{
+    border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+#video p{
+    padding: 20px;
+}
+#video span>button{
+    opacity: 0.4;
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+}
+#video span{
+    margin: 0;
+    display: inline-block;
+    float: right;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: black;
+}
+#video span:hover{
+    border-radius: 100%;
+    background-color: red;
+    color: #FFF;
+    /* text-align: center; */
+}
+/* #video div{
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
